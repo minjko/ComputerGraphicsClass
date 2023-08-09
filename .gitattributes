@@ -1,1 +1,6 @@
-D:/Portfolio/Project/Unity/1/QuizGame/Library/PackageCache/com.unity.burst@1.6.6/.Runtime/hostmac/lld filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
+*.lld filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.ArtifactDB filter=lfs diff=lfs merge=lfs -text
+QuizGame/Library/PackageCache/com.unity.burst@1.6.6/.Runtime/hostmac/lld filter=lfs diff=lfs merge=lfs -text
