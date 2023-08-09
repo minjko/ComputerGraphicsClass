@@ -1,0 +1,477 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1682171898872666, "dur": 4644616, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682171898873037, "dur": 3237, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682171898876277, "dur": 61687, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682171898937967, "dur": 1283511, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682171900221480, "dur": 3284527, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682171903506010, "dur": 11270, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682171903518209, "dur": 20, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1682171899631478, "dur": 568397, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682171899632847, "dur": 69555, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682171900179268, "dur": 5932, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682171900185204, "dur": 14663, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682171900186151, "dur": 12586, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682171900205783, "dur": 1647, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682171900204708, "dur": 2780, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682171903518320, "dur": 393, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1682171900288912, "dur":1704, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682171900290628, "dur":64, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1682171900290715, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1682171900290735, "dur":2021, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1682171900292989, "dur":721, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682171900293710, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682171903478523, "dur":301, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682171903478825, "dur":47, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682171903478873, "dur":34, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682171903478908, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682171903478924, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682171903478926, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682171903478937, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682171903478939, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682171903478946, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682171903478947, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682171903478956, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682171903478958, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682171903478968, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682171903478969, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682171903478977, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682171903478979, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682171903478989, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682171903479024, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682171903479089, "dur":2513, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1682171900291862, "dur":1904, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171900293770, "dur":6621, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171900300400, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682171900300408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171900302380, "dur":604, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682171900302990, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682171900303028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171900303242, "dur":4575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682171900307820, "dur":18178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1682171900326005, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171900326035, "dur":2724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1682171900328914, "dur":7577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1682171900336496, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171900336506, "dur":25140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1682171900361812, "dur":68320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171900430141, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171900430205, "dur":10583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171900440822, "dur":70447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171900511347, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171900511362, "dur":6831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171900518226, "dur":52515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171900570747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171900570760, "dur":6832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171900577623, "dur":128860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171900706492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171900706508, "dur":22871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171900729411, "dur":83441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171900812862, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171900812881, "dur":6694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171900819606, "dur":103489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171900923103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171900923117, "dur":9005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171900932158, "dur":82619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171901014802, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171901014817, "dur":8576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171901023432, "dur":64958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171901088398, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171901088415, "dur":6915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171901095372, "dur":86804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171901182184, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171901182200, "dur":8234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171901190474, "dur":81072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171901271553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171901271569, "dur":8203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171901279829, "dur":61194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171901341032, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171901341049, "dur":7832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171901348921, "dur":81108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171901430037, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171901430053, "dur":25832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171901455920, "dur":121748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171901577677, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171901577694, "dur":6911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171901584652, "dur":153763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171901738425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171901738442, "dur":8115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171901746598, "dur":613573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171902360181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171902360197, "dur":7304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171902367537, "dur":420943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171902788489, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171902788505, "dur":36079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682171902824661, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1682171902824708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171902824722, "dur":27126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1682171902851885, "dur":423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1682171902852314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682171902852327, "dur":2198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1682171902854559, "dur":623950, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682171900291910, "dur":1911, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682171900293822, "dur":6658, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682171900300481, "dur":929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1682171900301414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682171900310985, "dur":2318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1682171900313470, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1682171900313740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682171900313754, "dur":3273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1682171900317208, "dur":18803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1682171900336018, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682171900336033, "dur":5261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1682171900341508, "dur":214216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171900555732, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682171900557154, "dur":15319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171900572507, "dur":39139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171900611654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682171900611668, "dur":6183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171900617890, "dur":183321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171900801233, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682171900801247, "dur":7518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171900808800, "dur":304747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171901113628, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682171901113646, "dur":8385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171901122061, "dur":106674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171901228743, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682171901228761, "dur":7915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171901236716, "dur":74255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171901310980, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682171901310997, "dur":8734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171901319808, "dur":91050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171901410946, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682171901410965, "dur":6780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171901417783, "dur":66797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171901484587, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682171901484603, "dur":38444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171901523088, "dur":637566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171902160664, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682171902160682, "dur":8371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171902169099, "dur":276796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171902445904, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682171902445921, "dur":26999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171902472958, "dur":310282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171902783268, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682171902783285, "dur":18427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171902801763, "dur":279116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171903080889, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682171903080910, "dur":7043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682171903087995, "dur":390474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682171900291966, "dur":1907, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682171900293874, "dur":6571, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682171900300446, "dur":988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1682171900301437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682171900310833, "dur":2704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1682171900313680, "dur":19702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1682171900333389, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682171900333406, "dur":3207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1682171900336790, "dur":59506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge.exe" }}
+,{ "pid":12345, "tid":3, "ts":1682171900396304, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682171900396316, "dur":17660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge.exe" }}
+,{ "pid":12345, "tid":3, "ts":1682171900414003, "dur":136563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171900550573, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682171900550587, "dur":7702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171900559815, "dur":46688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171900606511, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682171900606525, "dur":7902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171900614460, "dur":37703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171900652169, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682171900652200, "dur":8080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171900660308, "dur":116076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171900776392, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682171900776407, "dur":6674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171900783117, "dur":84833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171900867958, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682171900867973, "dur":7139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171900875150, "dur":140717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171901015980, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682171901015996, "dur":12951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171901028984, "dur":105347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171901134340, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682171901134357, "dur":6301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171901140697, "dur":65983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171901206689, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682171901206705, "dur":6272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171901213014, "dur":266838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171901479862, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682171901479880, "dur":26595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171901506511, "dur":125811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171901632331, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682171901632349, "dur":12546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171901644942, "dur":385273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171902030223, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682171902030241, "dur":45414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171902075693, "dur":195952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171902271654, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682171902271671, "dur":7662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171902279371, "dur":114090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171902393471, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682171902393489, "dur":6444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171902399976, "dur":164654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171902564639, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682171902564693, "dur":21831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171902586563, "dur":417475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171903004048, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682171903004149, "dur":9255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682171903013446, "dur":465028, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171900292020, "dur":1906, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171900293926, "dur":6502, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171900300428, "dur":1016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1682171900301448, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171900311366, "dur":2074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1682171900313617, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1682171900313857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171900314435, "dur":2556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1682171900317178, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1682171900317533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171900317580, "dur":2360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1682171900320123, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1682171900320339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171900320366, "dur":2785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1682171900323302, "dur":85629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171900408939, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171900410875, "dur":26785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171900437826, "dur":46863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171900484698, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171900484712, "dur":6442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171900491186, "dur":69103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171900560298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171900560311, "dur":10033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171900570374, "dur":75226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171900645606, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171900645619, "dur":20899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171900666550, "dur":143515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171900810073, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171900810088, "dur":11187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171900821317, "dur":99082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171900920407, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171900920422, "dur":13942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171900934399, "dur":81083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171901015489, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171901016748, "dur":36396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171901053184, "dur":68641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171901121834, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171901121851, "dur":6790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171901128705, "dur":104204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171901232917, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171901232934, "dur":37831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171901270805, "dur":94940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171901365754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171901365772, "dur":6834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171901372644, "dur":61798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171901434451, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171901434469, "dur":6729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171901441241, "dur":56557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171901497806, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171901497889, "dur":6724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171901504656, "dur":68561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171901573225, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171901573243, "dur":6489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171901579766, "dur":92715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171901672490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171901672507, "dur":7043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171901679591, "dur":185729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171901865329, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171901865346, "dur":6483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171901871873, "dur":152996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171902024881, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171902024931, "dur":7593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171902032560, "dur":556653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171902589221, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171902589238, "dur":23990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171902613270, "dur":166030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171902779308, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171902779326, "dur":9742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171902789102, "dur":681975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171903471084, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682171903471096, "dur":7271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682171903478403, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1682171903478428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682171900292096, "dur":1881, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682171900293977, "dur":6424, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682171900300402, "dur":660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1682171900301067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682171900303534, "dur":4475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1682171900308183, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1682171900308433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682171900308792, "dur":2243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1682171900311221, "dur":23674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1682171900334900, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682171900334914, "dur":2302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1682171900337374, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1682171900337640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682171900338004, "dur":13477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1682171900351644, "dur":49868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171900401520, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682171900401911, "dur":8588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171900410531, "dur":88538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171900499076, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682171900499089, "dur":25514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171900524639, "dur":118855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171900643502, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682171900643517, "dur":8363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171900651908, "dur":42796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171900694711, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682171900694726, "dur":11864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171900706641, "dur":314678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171901021327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682171901021342, "dur":10282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171901031661, "dur":71894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171901103564, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682171901103582, "dur":6651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171901110279, "dur":170959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171901281251, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682171901281273, "dur":15144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171901296452, "dur":179995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171901476455, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682171901476473, "dur":7724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171901484235, "dur":96134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171901580376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682171901580392, "dur":6829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171901587267, "dur":220877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171901808156, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682171901808179, "dur":6871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171901815089, "dur":640426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171902455523, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682171902455540, "dur":58939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171902514522, "dur":375937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171902890469, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682171902890486, "dur":8718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682171902899241, "dur":579266, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682171900292433, "dur":1596, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682171900294029, "dur":6365, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682171900300400, "dur":73897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1682171900374306, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682171900374718, "dur":3177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1682171900378051, "dur":111629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171900489688, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682171900489702, "dur":22241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171900511987, "dur":239354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171900751349, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682171900751363, "dur":6507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171900757911, "dur":76627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171900834547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682171900834562, "dur":7252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171900841858, "dur":145087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171900986962, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682171900987001, "dur":21342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171901008382, "dur":52818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171901061209, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682171901061226, "dur":6404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171901067673, "dur":47690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171901115370, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682171901115385, "dur":6602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171901122023, "dur":71979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171901194011, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682171901194027, "dur":16898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171901210963, "dur":184261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171901395252, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682171901395283, "dur":9454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171901404780, "dur":453811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171901858600, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682171901858617, "dur":19366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171901878028, "dur":240086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171902118124, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682171902118142, "dur":8579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171902126764, "dur":155028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171902281799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682171902284744, "dur":11249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171902296034, "dur":483280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171902779321, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682171902779336, "dur":51371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682171902830744, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1682171902830782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682171902830796, "dur":14335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1682171902845172, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1682171902845288, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682171902845303, "dur":2650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1682171902847995, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1682171902848033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682171902848047, "dur":2846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1682171902850934, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1682171902850976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682171902850991, "dur":4709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1682171902855754, "dur":622718, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682171900292660, "dur":1419, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682171900294079, "dur":6365, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682171900300445, "dur":16394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1682171900317070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682171900317099, "dur":2805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1682171900320058, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1682171900320299, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682171900320314, "dur":2415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1682171900322888, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1682171900323148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682171900323161, "dur":3604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1682171900326943, "dur":256194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682171900583144, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682171900583276, "dur":116793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682171900700230, "dur":474394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682171901174633, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682171901174682, "dur":27897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682171901202622, "dur":54717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682171901257352, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682171901257378, "dur":13406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682171901270829, "dur":60643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682171901331481, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682171901331498, "dur":6633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682171901338168, "dur":90488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682171901428664, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682171901428681, "dur":12738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682171901441461, "dur":70856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682171901512326, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682171901512344, "dur":18203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682171901530584, "dur":152001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682171901682593, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682171901682611, "dur":6965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682171901689616, "dur":212123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682171901901748, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682171901901765, "dur":20822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682171901922624, "dur":731404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682171902654036, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682171902654053, "dur":18972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682171902673061, "dur":711669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682171903384737, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682171903384750, "dur":52484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682171903437271, "dur":41207, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682171900292889, "dur":1241, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682171900294130, "dur":6297, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682171900300427, "dur":23644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1682171900324076, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682171900324466, "dur":3511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1682171900328159, "dur":907468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682171901235634, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682171901235647, "dur":512747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682171901748593, "dur":326523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682171902075128, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682171902075153, "dur":7315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682171902082505, "dur":197742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682171902280253, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682171902280300, "dur":7057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682171902287393, "dur":508221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682171902795622, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682171902795638, "dur":10683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682171902806361, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1682171902806428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682171902806474, "dur":2778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1682171902809292, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1682171902809344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682171902809357, "dur":2335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1682171902811732, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1682171902812148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682171902812163, "dur":2174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1682171902814382, "dur":12318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1682171902826708, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682171902826723, "dur":24966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1682171902851728, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1682171902851771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682171902851785, "dur":2375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Portfolio/Project/Unity/projects/Dodge/GameDodge_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1682171902854199, "dur":624314, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682171903484387, "dur":4483, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1682171903518792, "dur": 1410, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682171903518191, "dur": 2082, "ph": "X", "name": "Write chrome-trace events", "args": {} },
